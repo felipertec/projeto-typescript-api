@@ -1,0 +1,34 @@
+{
+  "name": "projeto-typescript-api",
+  "version": "1.0.0",
+  "description": "Typescript projeto API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipertec/projeto-typescript-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Felipe Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipertec/projeto-typescript-api/issues"
+  },
+  "homepage": "https://github.com/felipertec/projeto-typescript-api#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^18.7.23",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
